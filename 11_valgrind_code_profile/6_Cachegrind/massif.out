@@ -1,0 +1,41 @@
+desc: --time-unit=B --massif-out-file=massif.out
+cmd: ./main
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=73736
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=73736
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=peak
+n1: 73728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+#-----------
+snapshot=3
+#-----------
+time=147472
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

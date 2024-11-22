@@ -1,0 +1,864 @@
+desc: --time-unit=B --massif-out-file=massif.out
+cmd: ./main
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=73736
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=137968
+mem_heap_B=137728
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=202224
+mem_heap_B=201728
+mem_heap_extra_B=496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=276520
+mem_heap_B=275728
+mem_heap_extra_B=792
+mem_stacks_B=0
+heap_tree=detailed
+n7: 275728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 64000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 64000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 62000 0x109B61: main (Cache_thrashing.cpp:180)
+ n0: 4000 0x109ACE: main (Cache_thrashing.cpp:173)
+ n0: 4000 0x109ADC: main (Cache_thrashing.cpp:174)
+ n0: 4000 0x109AEA: main (Cache_thrashing.cpp:175)
+#-----------
+snapshot=5
+#-----------
+time=340776
+mem_heap_B=339728
+mem_heap_extra_B=1048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=405032
+mem_heap_B=403728
+mem_heap_extra_B=1304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=469288
+mem_heap_B=467728
+mem_heap_extra_B=1560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=533544
+mem_heap_B=531728
+mem_heap_extra_B=1816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=597800
+mem_heap_B=595728
+mem_heap_extra_B=2072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=662056
+mem_heap_B=659728
+mem_heap_extra_B=2328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=726312
+mem_heap_B=723728
+mem_heap_extra_B=2584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=790568
+mem_heap_B=787728
+mem_heap_extra_B=2840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=878920
+mem_heap_B=875728
+mem_heap_extra_B=3192
+mem_stacks_B=0
+heap_tree=detailed
+n5: 875728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 264000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 264000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 262000 0x109B61: main (Cache_thrashing.cpp:180)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 12000 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=943176
+mem_heap_B=939728
+mem_heap_extra_B=3448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1007432
+mem_heap_B=1003728
+mem_heap_extra_B=3704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1071688
+mem_heap_B=1067728
+mem_heap_extra_B=3960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1135944
+mem_heap_B=1131728
+mem_heap_extra_B=4216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1200200
+mem_heap_B=1195728
+mem_heap_extra_B=4472
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1195728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 370000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 370000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 370000 0x109B61: main (Cache_thrashing.cpp:180)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 12000 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=1264456
+mem_heap_B=1259728
+mem_heap_extra_B=4728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1328712
+mem_heap_B=1323728
+mem_heap_extra_B=4984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1392968
+mem_heap_B=1387728
+mem_heap_extra_B=5240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1457224
+mem_heap_B=1451728
+mem_heap_extra_B=5496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1521480
+mem_heap_B=1515728
+mem_heap_extra_B=5752
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1515728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 478000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 476000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 476000 0x109B61: main (Cache_thrashing.cpp:180)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 12000 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=1585736
+mem_heap_B=1579728
+mem_heap_extra_B=6008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1649992
+mem_heap_B=1643728
+mem_heap_extra_B=6264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1714248
+mem_heap_B=1707728
+mem_heap_extra_B=6520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1778504
+mem_heap_B=1771728
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1842760
+mem_heap_B=1835728
+mem_heap_extra_B=7032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1907016
+mem_heap_B=1899728
+mem_heap_extra_B=7288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1971272
+mem_heap_B=1963728
+mem_heap_extra_B=7544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2035528
+mem_heap_B=2027728
+mem_heap_extra_B=7800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2099784
+mem_heap_B=2091728
+mem_heap_extra_B=8056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2164040
+mem_heap_B=2155728
+mem_heap_extra_B=8312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2228296
+mem_heap_B=2219728
+mem_heap_extra_B=8568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2292552
+mem_heap_B=2283728
+mem_heap_extra_B=8824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2356808
+mem_heap_B=2347728
+mem_heap_extra_B=9080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2421064
+mem_heap_B=2411728
+mem_heap_extra_B=9336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2485320
+mem_heap_B=2475728
+mem_heap_extra_B=9592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2549576
+mem_heap_B=2539728
+mem_heap_extra_B=9848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2613832
+mem_heap_B=2603728
+mem_heap_extra_B=10104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2678088
+mem_heap_B=2667728
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2742344
+mem_heap_B=2731728
+mem_heap_extra_B=10616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2806600
+mem_heap_B=2795728
+mem_heap_extra_B=10872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2870856
+mem_heap_B=2859728
+mem_heap_extra_B=11128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2935112
+mem_heap_B=2923728
+mem_heap_extra_B=11384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2999368
+mem_heap_B=2987728
+mem_heap_extra_B=11640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3098792
+mem_heap_B=3086752
+mem_heap_extra_B=12040
+mem_stacks_B=0
+heap_tree=peak
+n5: 3086752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1000000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 1000000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 1000000 0x109B61: main (Cache_thrashing.cpp:180)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 13024 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=3163048
+mem_heap_B=3022752
+mem_heap_extra_B=11784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3259432
+mem_heap_B=2926752
+mem_heap_extra_B=11400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3323688
+mem_heap_B=2862752
+mem_heap_extra_B=11144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3387944
+mem_heap_B=2798752
+mem_heap_extra_B=10888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=3452200
+mem_heap_B=2734752
+mem_heap_extra_B=10632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=3516456
+mem_heap_B=2670752
+mem_heap_extra_B=10376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=3580712
+mem_heap_B=2606752
+mem_heap_extra_B=10120
+mem_stacks_B=0
+heap_tree=detailed
+n5: 2606752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 840000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 840000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 840000 0x109B61: main (Cache_thrashing.cpp:180)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 13024 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=3644968
+mem_heap_B=2542752
+mem_heap_extra_B=9864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=3709224
+mem_heap_B=2478752
+mem_heap_extra_B=9608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=3773480
+mem_heap_B=2414752
+mem_heap_extra_B=9352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=3837736
+mem_heap_B=2350752
+mem_heap_extra_B=9096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=3901992
+mem_heap_B=2286752
+mem_heap_extra_B=8840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=3966248
+mem_heap_B=2222752
+mem_heap_extra_B=8584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=4030504
+mem_heap_B=2158752
+mem_heap_extra_B=8328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=4094760
+mem_heap_B=2094752
+mem_heap_extra_B=8072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=4159016
+mem_heap_B=2030752
+mem_heap_extra_B=7816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=4223272
+mem_heap_B=1966752
+mem_heap_extra_B=7560
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1966752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 628000 0x109B61: main (Cache_thrashing.cpp:180)
+ n0: 626000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 626000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 13024 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=4287528
+mem_heap_B=1902752
+mem_heap_extra_B=7304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=4351784
+mem_heap_B=1838752
+mem_heap_extra_B=7048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=4416040
+mem_heap_B=1774752
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=4480296
+mem_heap_B=1710752
+mem_heap_extra_B=6536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=4544552
+mem_heap_B=1646752
+mem_heap_extra_B=6280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=4608808
+mem_heap_B=1582752
+mem_heap_extra_B=6024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=4673064
+mem_heap_B=1518752
+mem_heap_extra_B=5768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=4737320
+mem_heap_B=1454752
+mem_heap_extra_B=5512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=4801576
+mem_heap_B=1390752
+mem_heap_extra_B=5256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=4865832
+mem_heap_B=1326752
+mem_heap_extra_B=5000
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1326752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 414000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 414000 0x109B61: main (Cache_thrashing.cpp:180)
+ n0: 412000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 13024 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=4930088
+mem_heap_B=1262752
+mem_heap_extra_B=4744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=4994344
+mem_heap_B=1198752
+mem_heap_extra_B=4488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=5058600
+mem_heap_B=1134752
+mem_heap_extra_B=4232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=5122856
+mem_heap_B=1070752
+mem_heap_extra_B=3976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=5187112
+mem_heap_B=1006752
+mem_heap_extra_B=3720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=5251368
+mem_heap_B=942752
+mem_heap_extra_B=3464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=5315624
+mem_heap_B=878752
+mem_heap_extra_B=3208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=5379880
+mem_heap_B=814752
+mem_heap_extra_B=2952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=5444136
+mem_heap_B=750752
+mem_heap_extra_B=2696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=5508392
+mem_heap_B=686752
+mem_heap_extra_B=2440
+mem_stacks_B=0
+heap_tree=detailed
+n5: 686752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 200000 0x109B1D: main (Cache_thrashing.cpp:178)
+ n0: 200000 0x109B3F: main (Cache_thrashing.cpp:179)
+ n0: 200000 0x109B61: main (Cache_thrashing.cpp:180)
+ n1: 73728 0x4913501: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+  n1: 73728 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 73728 0x4011CA0: call_init (dl-init.c:30)
+    n1: 73728 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 73728 0x4001139: ??? (in /lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 13024 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=5572648
+mem_heap_B=622752
+mem_heap_extra_B=2184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=5636904
+mem_heap_B=558752
+mem_heap_extra_B=1928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=5701160
+mem_heap_B=494752
+mem_heap_extra_B=1672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=5765416
+mem_heap_B=430752
+mem_heap_extra_B=1416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=5829672
+mem_heap_B=366752
+mem_heap_extra_B=1160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=5893928
+mem_heap_B=302752
+mem_heap_extra_B=904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=5958184
+mem_heap_B=238752
+mem_heap_extra_B=648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=6022440
+mem_heap_B=174752
+mem_heap_extra_B=392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=6086696
+mem_heap_B=110752
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=6196552
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x4B4FD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4B5FECF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B5EF2F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4B5D6B4: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4B5D6B4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4B524F7: puts (ioputs.c:40)
+       n0: 1024 0x109CC6: main (Cache_thrashing.cpp:201)
+ n0: 0 in 7 places, all below massif's threshold (1.00%)
